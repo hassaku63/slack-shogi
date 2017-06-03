@@ -1,7 +1,7 @@
 
 from app.modules.shogi import Koma
 
-emoji_prefix = "slackshogisss_"
+emoji_prefix = "shogi_"
 emoji_separetor = ":"
 
 koma2emoji = {
