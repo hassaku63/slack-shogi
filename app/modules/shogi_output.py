@@ -22,7 +22,7 @@ koma2emoji = {
     Koma.promoted_hisha: emoji_separetor + emoji_prefix + "dragon" + emoji_separetor,
 
     Koma.opponent_fu: emoji_separetor + emoji_prefix + "pawn_" + emoji_separetor,
-    Koma.opponent_kyosha: emoji_separetor + emoji_prefix + "kyou_" + emoji_separetor,
+    Koma.opponent_kyosha: emoji_separetor + emoji_prefix + "lance_" + emoji_separetor,
     Koma.opponent_keima: emoji_separetor + emoji_prefix + "knight_" + emoji_separetor,
     Koma.opponent_gin: emoji_separetor + emoji_prefix + "silver_" + emoji_separetor,
     Koma.opponent_kin: emoji_separetor + emoji_prefix + "gold_" + emoji_separetor,
@@ -30,7 +30,7 @@ koma2emoji = {
     Koma.opponent_hisha: emoji_separetor + emoji_prefix + "rook_" + emoji_separetor,
     Koma.opponent_gyoku: emoji_separetor + emoji_prefix + "king_" + emoji_separetor,
     Koma.opponent_promoted_fu: emoji_separetor + emoji_prefix + "_p_pawn_" + emoji_separetor,
-    Koma.opponent_promoted_kyosha: emoji_separetor + emoji_prefix + "_p_kyou_" + emoji_separetor,
+    Koma.opponent_promoted_kyosha: emoji_separetor + emoji_prefix + "_p_lance_" + emoji_separetor,
     Koma.opponent_promoted_keima: emoji_separetor + emoji_prefix + "_p_knight_" + emoji_separetor,
     Koma.opponent_promoted_gin: emoji_separetor + emoji_prefix + "_p_silver_" + emoji_separetor,
     Koma.opponent_promoted_kaku: emoji_separetor + emoji_prefix + "horse_" + emoji_separetor,
