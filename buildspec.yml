@@ -1,14 +1,12 @@
 version: 0.1
 
-phase:
-	pre_build:
-		commands:
-			- echo "[Codebuild:pre_build]"
-	build:
-		commands:
-			- echo "[CodeBuild:build] Build started on `date`"
-	post_build:
-		commands:
-			- echo "[CodeBuild:post_build]"
-
-	
+phases:
+  pre_build:
+    commands:
+      - echo Codebuild pre_build
+  build:
+    commands:
+      - echo CodeBuild build Build started on `date`
+  post_build:
+    commands:
+      - echo CodeBuild post_build
