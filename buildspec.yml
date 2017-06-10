@@ -3,10 +3,16 @@ version: 0.1
 phases:
   pre_build:
     commands:
-      - echo Codebuild pre_build
+      - echo pre_build start at `date`
+      - $(aws ecr get-login --region ap-northeast-1)
   build:
     commands:
-      - echo CodeBuild build Build started on `date`
+      - echo build started at `date`
+      - docker build -t slack-shogi .
+      - docker tag testapp:latest
+        433964552523.dkr.ecr.ap-northeast-1.amazonaws.com/slack-shogi:latest
   post_build:
     commands:
-      - echo CodeBuild post_build
+      - echo post_build started at `date`
+      - docker push
+        433964552523.dkr.ecr.ap-northeast-1.amazonaws.com/slack-shogi:latest
