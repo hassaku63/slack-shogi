@@ -11,4 +11,4 @@ test:
     post:
         - coverage html -d $CIRCLE_ARTIFACTS --include=`pwd`/app/*
         - codeclimate-test-reporter
-
+        - echo ${SLACK_SHOGI_WEBHOOK_URL}

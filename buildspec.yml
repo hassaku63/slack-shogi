@@ -9,7 +9,7 @@ phases:
     commands:
       - echo build started at `date`
       - docker build -t slack-shogi .
-      - docker tag testapp:latest
+      - docker tag slack-shogi:latest
         433964552523.dkr.ecr.ap-northeast-1.amazonaws.com/slack-shogi:latest
   post_build:
     commands:
